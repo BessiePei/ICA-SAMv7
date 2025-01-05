@@ -25,6 +25,10 @@ Create the conda env. The code requires `python>=3.7`, as well as `pytorch>=1.7`
 ```bash
 conda create -n ICA-SAMv7 python=3.9
 conda activate ICA-SAMv7
+pip install peft
+pip install albumentations
+pip install scikit-image
+pip install matplotlib
 ```
 
 ## Stage Ⅰ: ICA-YOLOv7
