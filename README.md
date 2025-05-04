@@ -1,6 +1,6 @@
 # ICA-SAMv7
 
-code repository for ICA-SAMv7
+code repository for [ICA-SAMv7](https://www.sciencedirect.com/science/article/pii/S0895611125000643)
 
 ## Abstract
 Internal carotid artery (ICA) stenosis is a life-threatening occult disease. Utilizing CT to examine vascular lesions such as calcified and non-calcified plaques in cases of carotid artery stenosis is a necessary clinical step in formulating the correct treatment plan.  
@@ -84,4 +84,18 @@ This project is released under the [Apache 2.0 license](LICENSE).
 - We thank all medical workers for preparing dataset for our work.
 - Thanks to the open-source of the following projects: [YOLOv7](https://github.com/WongKinYiu/yolov7), [Segment Anything](https://github.com/facebookresearch/segment-anything) , [SAM-Med2D](https://github.com/OpenGVLab/SAM-Med2D).
 
-
+## Citation
+```
+@article{YAN2025102555,
+title = {ICA-SAMv7: Internal carotid artery segmentation with coarse to fine network},
+journal = {Computerized Medical Imaging and Graphics},
+volume = {123},
+pages = {102555},
+year = {2025},
+issn = {0895-6111},
+doi = {https://doi.org/10.1016/j.compmedimag.2025.102555},
+url = {https://www.sciencedirect.com/science/article/pii/S0895611125000643},
+author = {Xiaotian Yan and Yuting Guo and Ziyi Pei and Xinyu Zhang and Jinghao Li and Zitao Zhou and Lifang Liang and Shuai Li and Peng Lun and Aimin Hao},
+keywords = {Medical image segmentation, Segment anything model, Yolov7, Carotid artery stenosis}
+}
+```
